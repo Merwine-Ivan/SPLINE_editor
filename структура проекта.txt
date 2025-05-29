@@ -1,0 +1,13 @@
+src/
+├── controller/
+│   └── SplineApp.java            ← главный контроллер (окно приложения)
+├── model/
+│   ├── Point.java                ← модель: точка
+│   ├── Spline.java               ← абстрактный класс сплайна
+│   ├── C0Spline.java             ← конкретный сплайн C0
+│   ├── C1Spline.java             ← конкретный сплайн C1
+│   └── C2Spline.java             ← конкретный сплайн C2
+├── view/
+│   ├── SplinePanel.java          ← панель отрисовки
+│   └── UIControls.java           ← UI-элементы (кнопки, меню и т.д.)
+└── Main.java                     ← точка входа
